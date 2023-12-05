@@ -1,0 +1,8 @@
+def calculo(numero):
+    resultado = (numero - 3 ) ** 3
+    return resultado
+
+x= int(input("introduce un numero:"))
+print(calculo(x))
+salida = calculo (5)
+print(salida + 100)
