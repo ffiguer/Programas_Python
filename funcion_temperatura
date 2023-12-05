@@ -1,0 +1,6 @@
+def temp(c):
+    k= c + 273
+    return k
+
+t=float (input("write the value of the temperature in kelvin:"))
+print("the value of the temperature is:",temp(t),"°K")
